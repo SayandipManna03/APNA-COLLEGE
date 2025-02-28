@@ -1,15 +1,4 @@
 {
-    "name": "My Codespace",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
-    "features": {},
-    "extensions": [
-        "ms-vscode.vscode-typescript-tslint-plugin",
-        "esbenp.prettier-vscode"
-    ],
-    "settings": {
-        "editor.tabSize": 2
-    },
-    "postCreateCommand": "npm install",
-    "remoteUser": "node"
+    "name": "Simple Codespace",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:latest"
 }
-Add devcontainer configuration
