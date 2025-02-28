@@ -1,4 +1,11 @@
 {
     "name": "Simple Codespace",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:latest"
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
+    "forwardPorts": [3000], 
+    "postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": ["dbaeumer.vscode-eslint"]
+        }
+    }
 }
